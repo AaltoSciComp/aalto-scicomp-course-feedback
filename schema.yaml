@@ -1,0 +1,75 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+type: object
+properties:
+  state:
+    enum: [null, "", "done", "feedback-done"]
+  name:
+    # Human name of the event
+    type: string
+  date:
+    # Start date of event (2020-01-01)
+    type: string
+    pattern: "[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}"
+  days:
+    # Number of unique days this event was held on
+    type: integer
+  hours:
+    # Total contact hours with students (sum over all days)
+    type: integer
+  instructors:
+    # Number of Science-IT instructors
+    type: integer
+  instructors-aalto:
+    # Number of Aalto instructors
+    type: integer
+
+  # Related to registration
+  registrations:
+    type: integer
+  registrations-finland:
+    type: integer
+  registrations-aalto:
+    type: integer
+  attendees:
+    # Number of *Aalto* attendees
+    type: integer
+  attendees-finland:
+    # Number of *FGCI* attendees
+    type: integer
+  attendees-aalto:
+    # Number of Aalto attendees
+    type: integer
+
+  # Related to feedback
+  twitch-max:
+    type: integer
+  twich-views:
+    type: array
+  rating:
+    # Course rating from 1 to 5
+    type: number
+  time-saved:
+    type: number
+  feedback:
+    # Free form text-feedback pasted in
+    type: string
+required:
+  - state
+  - name
+  - date
+  - days
+  - hours
+  - instructors
+  - instructors-external
+
+required_post:
+  - registrations
+  - registrations-finland
+  - registrations-external
+  - attendees
+  - attendees-finland
+  - attendees-external
+required_done:
+  - rating
+  - time_saved
+additionalProperties: false
