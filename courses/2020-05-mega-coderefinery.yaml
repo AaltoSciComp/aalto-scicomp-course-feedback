@@ -7,8 +7,8 @@ attendees: 100
 attendees-aalto: 30
 attendees-finland: 20
 instructors: 6
-instructors-external:
-rating: null
+instructors-aalto: 1
+#rating:
 feedback: |
   feedback
 

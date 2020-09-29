@@ -7,9 +7,9 @@ registrations: 102
 registrations-finland: 50
 attendees: 80
 attendees-finland: 30
-attendees-external: 20
-instructors: 1
-instructors-external: 6
+attendees-aalto: 30
+instructors: 7
+instructors-aalto: 1
 #rating:
 feedback: |
   feedback

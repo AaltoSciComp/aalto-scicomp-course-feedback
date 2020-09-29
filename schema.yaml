@@ -45,6 +45,8 @@ properties:
     type: integer
   twich-views:
     type: array
+    items:
+      type: integer
   rating:
     # Course rating from 1 to 5
     type: number
@@ -60,15 +62,14 @@ required:
   - days
   - hours
   - instructors
-  - instructors-external
 
 required_post:
   - registrations
   - registrations-finland
-  - registrations-external
+  - registrations-aalto
   - attendees
   - attendees-finland
-  - attendees-external
+  - attendees-aalto
 required_done:
   - rating
   - time_saved
