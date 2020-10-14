@@ -43,7 +43,7 @@ properties:
   # Related to feedback
   twitch-max:
     type: integer
-  twich-views:
+  twitch-views:
     type: array
     items:
       type: integer

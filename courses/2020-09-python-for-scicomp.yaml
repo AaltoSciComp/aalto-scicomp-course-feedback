@@ -1,5 +1,5 @@
 state: ""
-name: Mega-CodeRefinery
+name: Python for SciComp
 date: "2020-09-14"
 days: 4
 hours: 12
@@ -10,8 +10,108 @@ attendees-finland: 30
 attendees-aalto: 30
 instructors: 7
 instructors-aalto: 1
+twitch-views: [288, 246, 194, 257]
 #rating:
 feedback: |
-  feedback
 
-  feedback
+  Day 1
+  =====
+
+  There is always space for improvements, especially considering that this is the first time we are doing this from. Please write here one good thing and one thing to be improved. Focus on how to improve, especially for the next coming days.
+
+  - One good thing
+      - Really informative. Good show people how to find solutions.
+      - Pre-published exercises solutions
+      - Compact presentation style, anaconda worked without troubles
+      - Everything works, enjoyable format!
+      - The support available. HackMD is gold.
+      - Very motivational
+      - Using HackMD alongside the lecture itself is very helpfull.
+      - Informative and simple
+      - Easy to follow the lecture when you follow the notes online as you did today. Great work.
+      - Exercises with solutions are helpful
+  - One thing to be improved
+      - Sometimes things are a bit fast.
+      - adjusting the speakers' mics so that they all speak with the same amplitutde.
+      - More people to discuss with in the breakrooms
+      - Times for exercises very short, a longer one might be more beneficial or just trust that people do them. Maybe pre-exercises / homework
+      - More time to do exercise
+      - More people in beakout rooms
+      - Would be good to have a helper present in the rooms, promoting some more dynamics
+      - If I can get a support on other environment, (e.g. on cluster), it will be great as I am trying to move from NCL/Matlab to python.
+      - The interaction in the breakout rooms could be even better.
+
+
+  + Overall structure of this lecture was really great. There were also none of technical problems and everything was going on schedule.
+  - Amount of people in the breakrooms was rather small.
+  -
+  + Good, thanks, looking forward for next lectures
+
+
+  Day 2
+  =====
+
+
+  - One good thing about today:
+      - Really good information
+    - Lot of useful aspects were discussed. Discussing dependencies was useful
+    - Cool course, need to catch up. I wished I had known this before the git course. Please repeat the course soon.
+    -
+      - TA in private rooms
+      - Having instructor in breakout rooms
+      - Thank Enrico!
+    - I enjoyed follqqowing the lectures
+    - More structured today than last time in terms of how you guys worked on screen-sharing, breakout rooms etc. Less time got lost. Good work.
+    - Prior knowledge to sourcing and dependencies is very low, this i a very nice intro.
+
+
+  - One thing to be improved:
+      - The parse argument section was hard to understand. It would be good to have a bit more detailed explanation about it.
+      - Maybe you could take the twitch users into a breakout room, so they could listen too there.
+      - I did not follow much because I am totally new to this, but now I know where to look if when I need.
+      - git or version control was mentioned on sidenotes, but maybe that should be looked into a bit more?
+        - very important :-) please also see https://coderefinery.org/lessons/
+      - scripts slightly too simple
+      - In the exercise Scripts-3 with `argparse`I got very lost. Didnt catch the meaning/intention of using that at all. If you could include a better "solution" to how this is done using the terminal (or highlighting when not to) it would be nice
+        - thanks for the feedback. I will add more explanation and a solution (I will probably not manage today but tomorrow).
+
+  Day 3
+  =====
+
+  Do you prefer this course with:
+  - More time in breakout rooms  +3
+  - About right   +4
+  - More time in lectures  +1 +1 +1 +1
+  - More time in lectures and demos (we can try later by ourselves the demos/exercises) +1, ++, +1, +1 , +1
+  - It is still very dense and fast.
+  - More homework exercise so that we could have a good practice after class.
+      - This is a good idea for the future IMO. We could have at the end of each section an "advanced exercises" (homeworks) that learners can do by themselves and keep them as references.
+
+  - As Twitch participant I would like to follow into a breakout room, otherwise I get long pauses
+      - For the future: Maybe the instructor that stays in the main room can do the exercise with those on streaming/mainroom.
+
+  - Was there supposed to be a twich stream tomorrow?
+  I think it might refer to the research software hour?
+  -
+  -
+  -
+  -
+
+
+  Day 4
+  =====
+
+  An email with a feedback-survey will be sent soon to registered participants, but you can add your daily feedback here below (one good thing and one bad thing):
+
+  ### Good Things:
+  - Packing code was a really useful section today. +1
+
+  * This was a very useful introduction to useful stuff which will be needed when you develop as a coder
+  * Knowing how to link GitHub, Binder and Zenodo was very very useful
+  - This session was a great concise course on all the materials I always wanted to know but didn't know where to start from+2
+  - Yes, I agree. My problem is to know where to start and where to find information. CodeRefinery and Aalto provide a good start for this. Nobody told me about those things, when I started programming.
+  - Binder was very inspiring. I could use Binder when I give a presentation during a talk, I thought.
+  ### Bad Things:
+  - Today, I had the feeling that you were not well-prepared for the first part.
+  - Some parts of today seemed to much beyond what someone would normally use. Like Binders. These can be omitted for much detailed session about the previous stuff.
+  - The Conda packaging sessions was for me too fast, sorry. I feel you should allow more time to digest course materials. It is still very much condensed.
